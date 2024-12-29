@@ -9,7 +9,7 @@ This is a simple Python-based implementation of a `netcat`-like tool, comprising
 
 ---
 
-## Files
+## Files 
 ### `server.py`
 - Acts as the controller.
 - Sends commands to the client.
