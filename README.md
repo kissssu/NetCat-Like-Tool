@@ -62,7 +62,6 @@ Downloads
 
 ### Client
 ```bash
-Copy code
 Connecting....
 Connected.
 ```
