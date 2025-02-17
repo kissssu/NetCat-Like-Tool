@@ -21,3 +21,4 @@ while True:
 
 client.close()
 s.close()
+print("Connection closed.")
