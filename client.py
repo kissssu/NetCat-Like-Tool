@@ -3,14 +3,15 @@
 import socket
 import subprocess
 
-s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 print("Connecting....")
 while True:
-  try:
-    s.connect(("127.0.0.1",9999))
-    break
-  except ConnectionRefusedError:
-    pass
+    try:
+        s.connect(("127.0.0.1", 9999))
+        break
+    except ConnectionRefusedError:
+        print("Connection refused. Retrying...")  # Added message
+        pass
 print("Connected.")
 
 while True:
